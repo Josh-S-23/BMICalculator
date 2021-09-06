@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
     <h1> BMI Calculator </h1>
     <div class="grid-container">
-        <div class="grid-item">Height: </div>
-        <div class="grid-item">Weight: </div>
-        </div>
+        <div class="grid-item">Height (inches): <input type="text" id="height" name="height"></div>
+        <div class="grid-item">Weight (lbs): <input type="text" id="weight" name="weight"></div>
+        <div class="grid-item-button"> <button type="button" onClick="calcBMI()">Calculate</button></div>
+        <div class="grid-item"><output id=result></output></div>
+        <div class="grid-item"><output id=information></output></div>
+        </div>   
 </body>
 </html>

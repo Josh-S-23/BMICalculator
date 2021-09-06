@@ -12,12 +12,28 @@ h1 {
     flex-direction: column;
     border: 4px dashed;
     border-color: blue;
-    
-
 }
 
 .grid-item {
     font-size: 20px;
     text-align: center;
-    padding: 8px;
+    padding: 20px;
 }
+
+.grid-item-button {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    font-size: 18px;
+}
+
+button:active {
+    font-size: 18px;
+    border: 1.5px solid;
+    border-color: blue;
+}
+
+
+

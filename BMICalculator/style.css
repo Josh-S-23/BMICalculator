@@ -1,0 +1,23 @@
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    width: 10cm;
+    height: 10cm;
+    margin: auto;
+    flex-direction: column;
+    border: 4px dashed;
+    border-color: blue;
+    
+
+}
+
+.grid-item {
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
